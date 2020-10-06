@@ -27,6 +27,12 @@ the tasks were simplified as much as possible
 > Design and drafting
 > Random idea
 
+### Small links
+
+* [GitHub](https://github.com/Andrey0903) - My new profile
+* [VKontakte](https://vk.com/idandreirock) - Page, may be needed
+* [Mail](mailto:krolikakanalturba@mail) - Contact me
+
 # Installation exe for windows
 
 Installation is not complicated 
@@ -37,11 +43,6 @@ Download [file](https://yadi.sk/d/aOg7unvPuNRQAA)
 $ unzip the archive 
 $ Go to the folder 
 $ Run file nw.exe
-``
+``'
 Enjoy using
 
-### Small links
-
-* [* [GitHub](https://github.com/Andrey0903) - My new profile
-* [VKontakte](https://vk.com/idandreirock) - Page, may be needed
-* [Mail](mailto:krolikakanalturba@mail) - Contact me
