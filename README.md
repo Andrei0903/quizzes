@@ -13,12 +13,13 @@ Mostly will be.
 
 # Web version !
 How to open: Well, everything is simple, open a file index.html
-  - - The project follows the BEM rule. The code is easy to read!
-  - - There are a lot of unnecessary comments and I Packed it specifically so as not to open it too much.
+  -  The project follows the BEM rule. The code is easy to read!
+  -  There are a lot of unnecessary comments and I Packed it specifically so as not to open it too much.
 
 What to do:
 - different tasks and questions at each stage.
-  - We need to solve as much as possible and as best as possible.
+- We need to solve as much as possible and as best as possible.
+
 > Main goal of the project
 > the formatting syntax is to make it as readable as possible
 > as possible. The idea is that
