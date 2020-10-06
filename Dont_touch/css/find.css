@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+h3{
+    color: white;
+    font-family: 'Bad Script', cursive;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.main__title{
+    color: white;
+    font-size: 52px;
+    font-family: 'Bad Script', cursive;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;    
+   
+    transition: 1.2s linear;
+}
+
+.histoty{background: url("../img/narrative-794978_1920.jpg") no-repeat center fixed;}
+.histoty__bg{background: url("../img/work-1627703_1920.jpg") center / cover no-repeat;}
+.people{background: url("../img/bridge-5520899_1920.jpg") no-repeat center fixed;}
+.people__bg{background: url("../img/job-5243951_1920.jpg") no-repeat  center fixed;}
+.code{background: url("../img/apple-1842297_1920.jpg") no-repeat center fixed;}
+.code__bg{background: url("../img/code-820275_1920.jpg") no-repeat / center fixed;}
+.prus{background: url("../img/Rebus/fon1.jpg") no-repeat center fixed;}
+
+img{
+    width: 100%;
+}
+
+.overlay:hover{
+    transition: 0s linear;
+    opacity: 0;
+}
+
+.contaiter{
+    margin: 100px;
+}
+
+.block{
+    height: 100vh;
+}
+
+.block__content{
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    background: #26295a;
+    display: block;  
+}
+
+.block__title{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Bad Script', cursive;
+}
+
+.block{
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit{
+    height: 75px;
+    width: 150px;
+    border-radius: 20px;
+    background: rgba(228, 82, 79, 0.5);
+    cursor: pointer;
+    margin: 20px 40% 20px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#submit:hover{
+    background: rgba(228, 82, 79, 1);
+    font-size: 16px;
+}
+
+#stat{
+    padding: 2% 0 5% 0;
+    font-family: inherit;
+    font-size: 24px;
+}

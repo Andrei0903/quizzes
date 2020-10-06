@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title>2 тур</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jQuizler.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/jQuizler.css" />
+
+<script type="text/javascript">
+let questions = [
+    {
+        type: "choose",
+        question: "<h3> Меню – это…  </h3>",
+        answers: [
+            "Список, из которого можно выбрать необходимые элементы",
+            "Перечень блюд, кушаний в списке",
+            "Способ общения с пользователем",
+			"Нет правильно ответа",
+        ],
+        correct: [3]
+
+    },
+    {
+        type: "choose",
+        question: "<h3> Гибкий магнитный диск. </h3>",
+        answers: [
+            "Все правильно",
+            "Устройство управления движением на экране",
+            "Сервер",
+            "дискета",
+            // (дискета)
+        ],
+        correct: [4]
+
+    },
+    {
+        type: "choose",
+        question: "<h3> Адрес – это… </h3>",
+        answers: [
+            "порядковый номер байта оперативной памяти",
+            "порядковый номер элемента",
+            "часть письма в электронной почте",
+        ],
+        correct: [2]
+
+    },
+    {
+        type: "choose",
+        question: "<h3> Вирус - это... </h3>",
+        answers: [
+            "возбудитель инфекционного заболевания",
+            "ошибка в программе",
+            "программа, внедряющая копии в файлы, документы, загрузочные сектора дисков",
+        ],
+        correct: [2]
+
+    },
+    {
+        type: "choose",
+        question: "<h3> Драйвер – это… </h3>",
+        answers: [
+            "переводчик программы на машинный язык",
+            "водитель автомобиля",
+            "программа обслуживания периферийного устройства",
+        ],
+        correct: [1] 
+    },
+
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест на тему: день программиста</h3>
+		<p><img src="https://cdn.pixabay.com/photo/2019/07/14/16/29/pen-4337524_960_720.jpg" /></p>
+        <a class="btn btn-large"> Начать </a>
+    </div>
+<footer>
+   <p  class="center"> <a href="tree.html" id="next__tree">Следующее задание</a></p>
+</footer>
+</body>
+</html>
