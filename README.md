@@ -1,6 +1,6 @@
 # Programmer's day
 
-[![Build Status](https://github.com/Andrei0903/quizzes)]()
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
 
 this project was created for the class hour of the group ╠ ISP-11.19.2 ╣
 
