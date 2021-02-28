@@ -35,6 +35,8 @@ Installation is not complicated
 
 Download [file](https://yadi.sk/d/aOg7unvPuNRQAA) 
 
+[Start](https://andrei0903.github.io/quizzes/)
+
 ```sh
 $ unzip the archive 
 $ Go to the folder 
